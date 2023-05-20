@@ -1,3 +1,5 @@
+
+ 
 <div class="bootstrap-wrapper ">
     <div class="container">
         <div class="row ">
@@ -6,13 +8,14 @@
                     <img src="../../../assets/logo.png" alt="No Img">
                 </div>
                 <h1 class="text-center">Registration Here</h1>
-                {{user | json}}
+               
                 <form (ngSubmit)="formSubmit()">
                 <mat-form-field class="full-width" appearance="outline">
                     <mat-label>User Name</mat-label>
                     <input [(ngModel)]="user.username" name="username" matInput placeholder="Enter Here">
+                    <mat-hint>User Name must be Uniq</mat-hint>
                   </mat-form-field>
-
+                   
                   <mat-form-field class="full-width" appearance="outline">
                     <mat-label>User Password</mat-label>
                     <input type="password"  [(ngModel)]="user.password" name="password" matInput placeholder="Enter Here">

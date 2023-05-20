@@ -1,0 +1,19 @@
+.text-center{
+    text-align: center;
+}
+.text-center button{
+    margin: 5px;
+}
+.ss img{
+    height: 90px;
+    width: 70px;
+}
+.full-width{
+    width: 100%;
+}
+.signUp{
+    background-color: rgb(250, 251, 252);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
